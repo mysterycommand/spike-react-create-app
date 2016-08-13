@@ -1,0 +1,25 @@
+{
+  "name": "spike-react-create-app",
+  "version": "1.0.0",
+  "description": "Spiking out a react-create-app app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysterycommand/spike-react-create-app.git"
+  },
+  "keywords": [
+    "spike",
+    "react",
+    "create",
+    "app"
+  ],
+  "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mysterycommand/spike-react-create-app/issues"
+  },
+  "homepage": "https://github.com/mysterycommand/spike-react-create-app#readme"
+}
