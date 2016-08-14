@@ -2,9 +2,22 @@
   "name": "spike-react-create-app",
   "version": "1.0.0",
   "description": "Spiking out a react-create-app app.",
-  "main": "index.js",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.2.1"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
   },
   "repository": {
     "type": "git",
